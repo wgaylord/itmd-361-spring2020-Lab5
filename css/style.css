@@ -1,6 +1,7 @@
 h1 {
 	text-align:center;
 	color: gray;
+	font-size: 4em;
 }
 
 p{
@@ -24,7 +25,6 @@ table, th, td {
 
 body {
 	background-color: black;
-
 }
 
 .center {
@@ -44,4 +44,9 @@ img {
 	width: 70px;
 	height: 70px
 
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
 }
