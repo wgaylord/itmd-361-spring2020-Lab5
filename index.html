@@ -2,64 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Planet Table</title>
 </head>
 <body>
-<table>
+<h1 class="center">Planet Table - Lab 5</h1>
+<p class="center">This page shows information from <a href=" http://pds.jpl.nasa.gov/planets/special/planets.htm">NASA</a>.</p>
+<table class="center">
  <tr>
-    <th>Image</th>
-    <th>Name</th>
-    <th>Mass (kg)</th>
-    <th>Diameter (km)</th>
-	<th>Mean density (kg/m3)</th>
-	<th>Escape velocity (m/s)</th>
-	<th>Avg Dist from Sun (AU)</th>
-	<th>Rotation Period (Earth Days)</th>
-	<th>Revolution period (Earth Years)</th>
+    <th>Planets:</th>
+    <th>Mercury</th>
+    <th>Venus</th>
+    <th>Earth</th>
+	<th>Mars</th>
   </tr>
   <tr>
-    <td><img src="img\mercury.gif"></td>
-    <td>Mercury</td>
-    <td>3.3 x 10^23</td>
-	<td>4879.4</td>
-	<td>5420</td>
-	<td>4300</td>
-	<td>0.387</td>
-	<td>58.65</td>
-	<td>87.97</td>
+    <td>Images</td>
+    <td class="itemcenter"><img src="img\mercury.gif"></td>
+	<td class="itemcenter"><img src="img\venus.gif"></td>
+	<td class="itemcenter"><img src="img\earth.gif"></td>
+	<td class="itemcenter"><img src="img\mars.gif"></td>
    </tr>
    <tr>
-    <td><img src="img\venus.gif"></td>
-    <td>Venus</td>
-    <td>4.87 x 10^24</td>
-	<td>12104</td>
-	<td>5250</td>
-	<td>10400</td>
-	<td>0.723</td>
-	<td>243.02</td>
-	<td>224.7</td>
+    <td>Mass (kg)</td>
+    <td class="itemcenter">3.3 x 10^23</td>
+    <td class="itemcenter">4.87 x 10^24</td>
+	<td class="itemcenter">5.98 x 10^24</td>
+	<td class="itemcenter">6.42 x 10^23</td>
   </tr>
   <tr>
-    <td><img src="img\earth.gif"></td>
-    <td>Earth</td>
-    <td>5.98 x 10^24</td>
-	<td>12756</td>
-	<td>5520</td>
-	<td>11200</td>
-	<td>1</td>
-	<td>1</td>
-	<td>365.26</td>
+    <td>Diameter (km)</td>
+    <td class="itemcenter">4879.4</td>
+    <td class="itemcenter">12104</td>
+	<td class="itemcenter">12756</td>
+	<td class="itemcenter">6787</td>
   </tr>
   <tr>
-    <td><img src="img\mars.gif"></td>
-    <td>Mars</td>
-    <td>6.42 x 10^23</td>
-	<td>6787</td>
-	<td>3940</td>
-	<td>5000</td>
-	<td>1.524</td>
-	<td>1.026</td>
-	<td>686.98</td>
+    <td>Mean density (kg/m3)</td>
+    <td class="itemcenter">5420</td>
+    <td class="itemcenter">5250</td>
+	<td class="itemcenter">5520</td>
+	<td class="itemcenter">3940</td>
+  </tr>
+  <tr>
+    <td>Escape velocity (m/s)</td>
+    <td class="itemcenter">4300</td>
+    <td class="itemcenter">10400</td>
+	<td class="itemcenter">11200</td>
+	<td class="itemcenter">5000</td>
+  </tr>
+  <tr>
+    <td>Avg Dist from Sun (AU)</td>
+    <td class="itemcenter">0.387</td>
+    <td class="itemcenter">0.723</td>
+	<td class="itemcenter">1</td>
+	<td class="itemcenter">1.524</td>
+  </tr>
+  <tr>
+    <td>Rotation Period (Earth Days)</td>
+    <td class="itemcenter">58.65</td>
+    <td class="itemcenter">243.02</td>
+	<td class="itemcenter">1</td>
+	<td class="itemcenter">1.026</td>
+  </tr>
+  <tr>
+    <td>Revolution period (Earth Years)</td>
+    <td class="itemcenter">87.97</td>
+    <td class="itemcenter">224.7</td>
+	<td class="itemcenter">365.26</td>
+	<td class="itemcenter">686.98</td>
   </tr>
 </table>
 

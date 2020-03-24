@@ -1,0 +1,47 @@
+h1 {
+	text-align:center;
+	color: gray;
+}
+
+p{
+	text-align:center;
+	color: gray;
+}
+table {
+  
+  border-collapse: collapse;
+  color: gray;
+}
+
+table, th, td {
+  border: 1px solid green;
+}
+
+.labels {
+	width:200px;
+	text-align:right;
+}
+
+body {
+	background-color: black;
+
+}
+
+.center {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+.itemcenter {
+
+	text-align: center;
+}
+
+
+
+img {
+	width: 70px;
+	height: 70px
+
+}
