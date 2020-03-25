@@ -1,81 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Lab 5 - Planet Table</title>
-</head>
-<body>
-<h1 class="center">Planet Table</h1>
-<p class="center">This page shows information from <a href=" http://pds.jpl.nasa.gov/planets/special/planets.htm"><img id="nasa" src="img/nasa.svg" alt="NASA"></a></p>
-<table class="center">
- <tr>
-    <th class="labels">Planets:</th>
-    <th class="itemcenter mercuryborders">Mercury</th>
-    <th class="itemcenter venusborders">Venus</th>
-    <th class="itemcenter earthborders">Earth</th>
-	<th class="itemcenter marsborders">Mars</th>
-  </tr>
-  <tr>
-    <td class="labels">Images</td>
-    <td class="itemcenter mercuryborders"><img src="img\mercury.gif" alt="Mercury"></td>
-	<td class="itemcenter venusborders"><img src="img\venus.gif" alt="Venus"></td>
-	<td class="itemcenter earthborders"><img src="img\earth.gif" alt="Earth"></td>
-	<td class="itemcenter marsborders"><img src="img\mars.gif" alt="Mars"></td>
-   </tr>
-   <tr>
-    <td class="labels">Mass (kg)</td>
-    <td class="itemcenter mercuryborders">3.3 x 10<sup>23</sup></td>
-    <td class="itemcenter venusborders">4.87 x 10<sup>24</sup></td>
-	<td class="itemcenter earthborders">5.98 x 10<sup>24</sup></td>
-	<td class="itemcenter marsborders">6.42 x 10<sup>23</sup></td>
-  </tr>
-  <tr>
-    <td class="labels">Diameter (km)</td>
-    <td class="itemcenter mercuryborders">4879.4</td>
-    <td class="itemcenter venusborders">12104</td>
-	<td class="itemcenter earthborders">12756</td>
-	<td class="itemcenter marsborders">6787</td>
-  </tr>
-  <tr>
-    <td class="labels">Mean density (kg/m3)</td>
-    <td class="itemcenter mercuryborders">5420</td>
-    <td class="itemcenter venusborders">5250</td>
-	<td class="itemcenter earthborders">5520</td>
-	<td class="itemcenter marsborders">3940</td>
-  </tr>
-  <tr>
-    <td class="labels">Escape velocity (m/s)</td>
-    <td class="itemcenter mercuryborders">4300</td>
-    <td class="itemcenter venusborders">10400</td>
-	<td class="itemcenter earthborders">11200</td>
-	<td class="itemcenter marsborders">5000</td>
-  </tr>
-  <tr>
-    <td class="labels">Avg Dist from Sun (AU)</td>
-    <td class="itemcenter mercuryborders">0.387</td>
-    <td class="itemcenter venusborders">0.723</td>
-	<td class="itemcenter earthborders">1</td>
-	<td class="itemcenter marsborders">1.524</td>
-  </tr>
-  <tr>
-    <td class="labels">Rotation Period (Earth Days)</td>
-    <td class="itemcenter mercuryborders">58.65</td>
-    <td class="itemcenter venusborders">243.02</td>
-	<td class="itemcenter earthborders">1</td>
-	<td class="itemcenter marsborders">1.026</td>
-  </tr>
-  <tr>
-    <td class="labels">Revolution period (Earth Years)</td>
-    <td class="itemcenter mercuryborders">87.97</td>
-    <td class="itemcenter venusborders">224.7</td>
-	<td class="itemcenter earthborders">365.26</td>
-	<td class="itemcenter marsborders">686.98</td>
-  </tr>
-</table>
-
-
-
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Lab 5 - Planet Table</title>
+  </head>
+  <body>
+    <h1 class="center">Planet Table</h1>
+    <p class="center">This page shows information from <a href=" http://pds.jpl.nasa.gov/planets/special/planets.htm"><img id="nasa" src="img/nasa.svg" alt="NASA"></a></p>
+    <table class="center">
+      <tr>
+        <th></th>
+        <th class="itemcenter mercuryborders">Mercury</th>
+        <th class="itemcenter venusborders">Venus</th>
+        <th class="itemcenter earthborders">Earth</th>
+	    <th class="itemcenter marsborders">Mars</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="itemcenter mercuryborders"><img src="img\mercury.gif" alt="Mercury"></td>
+	    <td class="itemcenter venusborders"><img src="img\venus.gif" alt="Venus"></td>
+	    <td class="itemcenter earthborders"><img src="img\earth.gif" alt="Earth"></td>
+	    <td class="itemcenter marsborders"><img src="img\mars.gif" alt="Mars"></td>
+      </tr>
+      <tr class="highlight">
+        <td class="labels">Mass (kg)</td>
+        <td class="itemcenter mercuryborders">3.3 x 10<sup>23</sup></td>
+        <td class="itemcenter venusborders">4.87 x 10<sup>24</sup></td>
+	    <td class="itemcenter earthborders">5.98 x 10<sup>24</sup></td>
+	    <td class="itemcenter marsborders">6.42 x 10<sup>23</sup></td>
+      </tr>
+      <tr class="highlight">
+        <td class="labels">Diameter (km)</td>
+        <td class="itemcenter mercuryborders">4879.4</td>
+        <td class="itemcenter venusborders">12104</td>
+	    <td class="itemcenter earthborders">12756</td>
+	    <td class="itemcenter marsborders">6787</td>
+      </tr>
+      <tr class="highlight">
+        <td class="labels">Mean density (kg/m3)</td>
+        <td class="itemcenter mercuryborders">5420</td>
+        <td class="itemcenter venusborders">5250</td>
+	    <td class="itemcenter earthborders">5520</td>
+	    <td class="itemcenter marsborders">3940</td>
+      </tr>
+      <tr class="highlight">
+        <td class="labels">Escape velocity (m/s)</td>
+        <td class="itemcenter mercuryborders">4300</td>
+        <td class="itemcenter venusborders">10400</td>
+	    <td class="itemcenter earthborders">11200</td>
+	    <td class="itemcenter marsborders">5000</td>
+      </tr>
+      <tr class="highlight">
+        <td class="labels">Avg Dist from Sun (AU)</td>
+        <td class="itemcenter mercuryborders">0.387</td>
+        <td class="itemcenter venusborders">0.723</td>
+	    <td class="itemcenter earthborders">1</td>
+	    <td class="itemcenter marsborders">1.524</td>
+      </tr>
+      <tr class="highlight">
+        <td class="labels">Rotation Period (Earth Days)</td>
+		<td class="itemcenter mercuryborders">58.65</td>
+		<td class="itemcenter venusborders">243.02</td>
+		<td class="itemcenter earthborders">1</td>
+		<td class="itemcenter marsborders">1.026</td>
+	</tr>
+	<tr class="highlight">
+		<td class="labels">Revolution period (Earth Years)</td>
+		<td class="itemcenter mercuryborders">87.97</td>
+		<td class="itemcenter venusborders">224.7</td>
+		<td class="itemcenter earthborders">365.26</td>
+		<td class="itemcenter marsborders">686.98</td>
+	  </tr>
+	</table>
+  </body>
 </html>

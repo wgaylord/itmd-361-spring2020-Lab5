@@ -1,65 +1,44 @@
 h1 {
-	text-align:center;
-	color: #4F84F7;
-	font-size: 4em;
+  text-align:center;
+  color: #4F84F7;
+  font-size: 4em;
 }
 
 p{
-	text-align:center;
-	color: gray;
+  text-align:center;
+  color: #FF2E2E;
 }
 
 table {
   border-collapse: separate;
   border-spacing: 1px;
-  color: gray;
+  color: #8954F3;
 }
-
-
-#nasa {
-	width:5%;
-	height:5%;
-	top:1.2em;
-	position: relative;
-	display: inline;
-}
-
-.mercuryborders {
-	border: 1px;
-	border-color: tan;
-	border-style:ridge;
-}
-
-tr:hover{
-	color:gold;
-}
-
-.venusborders {
-	border: 1px solid orange;
-}
-
-.earthborders {
-	border: 1px solid blue;
-}
-
-.marsborders {
-	border: 1px solid red;
-}
-
-.labels {
-	width: 20%;
-	text-align:right;
-	padding: 0px 10px;
-	border: 1px #403B3A;
-	border-bottom-style: solid;
-}
-
 
 body {
-	background-image: url("/img/starfield.jpg");
-	background-repeat: no-repeat; 
+  background-image: url("/img/starfield.jpg");
+  background-repeat: no-repeat; 
   background-size: cover;
 }
+
+img {
+  width: 70px;
+  height: 70px
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+#nasa {
+  width:5%;
+  height:5%;
+  top:1.2em;
+  position: relative;
+  display: inline;
+}
+
 
 .center {
   margin: auto;
@@ -68,18 +47,36 @@ body {
 }
 
 .itemcenter {
-	text-align: center;
+  text-align: center;
+}
+
+.mercuryborders {
+  border: 1px;
+  border-color: tan;
+  border-style:ridge;
 }
 
 
-
-img {
-	width: 70px;
-	height: 70px
-
+.highlight:hover{
+  color:gold;
 }
 
-sup {
-  vertical-align: super;
-  font-size: smaller;
+.venusborders {
+  border: 1px solid orange;
+}
+
+.earthborders {
+  border: 1px solid blue;
+}
+
+.marsborders {
+  border: 1px solid red;
+}
+
+.labels {
+  width: 20%;
+  text-align:right;
+  padding: 0px 10px;
+  border: 1px #403B3A;
+  border-bottom-style: solid;
 }
