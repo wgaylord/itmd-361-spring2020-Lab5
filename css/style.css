@@ -1,6 +1,6 @@
 h1 {
 	text-align:center;
-	color: gray;
+	color: #4F84F7;
 	font-size: 4em;
 }
 
@@ -30,6 +30,9 @@ table {
 	border-style:ridge;
 }
 
+tr:hover{
+	color:gold;
+}
 
 .venusborders {
 	border: 1px solid orange;
@@ -53,7 +56,9 @@ table {
 
 
 body {
-	background-color: black;
+	background-image: url("/img/starfield.jpg");
+	background-repeat: no-repeat; 
+  background-size: cover;
 }
 
 .center {
@@ -63,7 +68,6 @@ body {
 }
 
 .itemcenter {
-
 	text-align: center;
 }
 
