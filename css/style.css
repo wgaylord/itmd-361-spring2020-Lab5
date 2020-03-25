@@ -16,7 +16,7 @@ table {
 }
 
 body {
-  background-image: url("img/starfield.jpg");
+  background-image: url("../img/starfield.jpg");
   background-repeat: no-repeat; 
   background-size: cover;
 }
