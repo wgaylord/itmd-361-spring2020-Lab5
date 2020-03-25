@@ -8,20 +8,49 @@ p{
 	text-align:center;
 	color: gray;
 }
+
 table {
-  
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 1px;
   color: gray;
 }
 
-table, th, td {
-  border: 1px solid green;
+
+#nasa {
+	width:5%;
+	height:5%;
+	top:1.2em;
+	position: relative;
+	display: inline;
+}
+
+.mercuryborders {
+	border: 1px;
+	border-color: tan;
+	border-style:ridge;
+}
+
+
+.venusborders {
+	border: 1px solid orange;
+}
+
+.earthborders {
+	border: 1px solid blue;
+}
+
+.marsborders {
+	border: 1px solid red;
 }
 
 .labels {
-	width:20%;
+	width: 20%;
 	text-align:right;
+	padding: 0px 10px;
+	border: 1px #403B3A;
+	border-bottom-style: solid;
 }
+
 
 body {
 	background-color: black;
